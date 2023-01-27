@@ -24,4 +24,15 @@ Doping of a two-dimensional (2D) material by impurity atoms occurs \textit{via} 
 Data
 ----
 
-An archive with the data related to this work is available here: `imp2d.tar.gz <http://datasets.anyterial.se/2D_Absorption_vs_Adsorption/imp2d.tar.gz>`__
+The data related to this work is available here:
+
+- An archive hosted by Open Materials Database: `imp2d.tar.gz <https://public.openmaterialsdb.se/2D_Absorption_vs_Adsorption/imp2d.tar.gz>`__
+- Browsable and downloadable options hosted by the Computational Materials Repository at: https://cmr.fysik.dtu.dk/imp2d/imp2d.html
+
+Note: if any of the above links are broken or anything else needs to be updated, please let us know using `the contact info on the dataset web page. <https://data.openmaterialsdb.se>`__
+
+More information
+----------------
+
+More information about ADAQ is available at https://httk.org/adaq
+
