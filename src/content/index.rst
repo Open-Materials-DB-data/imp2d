@@ -5,24 +5,23 @@
 :Template: default
 :Base_template: base_default
 
-=============================================================================================
-Data for: Tetragonal distortion in magnetron sputtered bcc-W films with supersaturated carbon 
-=============================================================================================
+===================================================================================================
+Data for: Absorption *versus* Adsorption: High-Throughput Computation of Impurities in 2D Materials
+===================================================================================================
 
-Materials & Design (2022)
+- npj 2D Materials and Applications (2023)
+- `arXiv:2207.05353 <https://doi.org/10.48550/arXiv.2207.05353>`__
 
-*B.O. Mukhamedov*\ :sup:`1`, *S. Fritze*\ :sup:`2`, *M. Ottosson*\ :sup:`2`, *B. Osinger*\ :sup:`2`, *E. Lewin*\ :sup:`2`, *B. Alling*\ :sup:`1`, *U. Jansson*\ :sup:`2`, *I.A. Abrikosov*\ :sup:`1,3`
+*Joel Davidsson*\ :sup:`1,*`, *Fabian Bertoldo*\ :sup:`2,*`, *Kristian S. Thygesen*\ :sup:`2`, *Rickard Armiento*\ :sup:`1`
 
-| :sup:`1`\ Theoretical Physics Division, Department of Physics, Chemistry and Biology (IFM), Linköping University, SE-581 83, Linköping, Sweden.
-| :sup:`2`\ Department of Chemistry-Ångström, Uppsala University, Box 538, SE-75121 Uppsala, Sweden.
-| :sup:`3`\ Materials Modeling and Development Laboratory, National University of Science and Technology ’MISIS’, 119049 Moscow, Russia. 
+| :sup:`1`\ Department of Physics, Chemistry and Biology, Link ̈oping University, SE-581 83 Linköping, Sweden
+| :sup:`2`\ CAMD, Computational Atomic-Scale Materials Design, Department of Physics, Technical University of Denmark, 2800 Kgs. Lyngby, Denmark
+| :sup:`*`\ These authors contributed equally.
 |
 
-Carbon has a low solid solubility in bcc tungsten at equilibrium. However, metastable supersaturated solid solutions can be synthesized with magnetron sputtering. Here, we present a systematic study on the phase stability and mechanical properties of such supersaturated W–C solid solutions. Θ–2θ scans show a split of the 200/020 and the 002 peaks for supersaturated films which is explained by a tetragonal distortion of the bcc structure. This split increases with increasing C content and is maximized at 4 at.% C, where we observe an a/b axis of 3.15-3.16 Å and a c-axis of 3.21-3.22 Å. We performed first-principles calculations of lattice parameters, mixing enthalpies, elastic constants and polycrystalline elastic moduli for cubic and tetragonal W–C solid solutions. Calculations show that tetragonal structure is more stable than the bcc supersaturated solid solution and the calculated lattice parameters and Young’s moduli follow the same trends as the experimental ones as a function of C concentration. The results suggest that supersaturated films with lattice distortion can be used as a design approach to improve the properties of transition metal films with a bcc structure. 
-
-*Keywords:* Tungsten; Supersaturated solid solution; Thin film diffraction; Density functional theory; Thermodynamic stability; Elastic property.
+Doping of a two-dimensional (2D) material by impurity atoms occurs \textit{via} two distinct mechanisms: absorption of the dopants by the 2D crystal or adsorption on its surface. To distinguish the relevant mechanism, we systematically dope 53 experimentally synthesized 2D monolayers by 65 different chemical elements in both absorption and adsorption sites. The resulting 17,598 doped monolayer structures were generated using the newly developed ASE \texttt{DefectBuilder} -- a Python tool to set up point defects in 2D and bulk materials -- and subsequently relaxed by an automated high-throughput DFT workflow. Interstitial positions are preferred for small dopants with partially filled valence electrons in host materials with large lattice parameters. On the contrary, adatoms are favored for dopants with a low number of valence electrons due to lower coordination of adsorption sites compared to interstitials. The relaxed structures, characterization parameters, defect formation energies, and magnetic moments (spins) are available in an open database to help advance our understanding of defects in 2D materials.
 
 Data
 ----
 
-An archive with the data related to this work is available here: `W_C_all_files.tar.gz <https://mdi.gitlab-pages.liu.se/data/wctmd/W_C_all_files.tar.gz>`__
+An archive with the data related to this work is available here: `imp2d.tar.gz <https://mdi.gitlab-pages.liu.se/data/imp2d/imp2d.tar.gz>`__
