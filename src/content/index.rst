@@ -24,4 +24,4 @@ Doping of a two-dimensional (2D) material by impurity atoms occurs \textit{via} 
 Data
 ----
 
-An archive with the data related to this work is available here: `imp2d.tar.gz <https://mdi.gitlab-pages.liu.se/data/imp2d/imp2d.tar.gz>`__
+An archive with the data related to this work is available here: `imp2d.tar.gz <http://datasets.anyterial.se/2D_Absorption_vs_Adsorption/imp2d.tar.gz>`__
